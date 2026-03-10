@@ -21,21 +21,17 @@ document.addEventListener('DOMContentLoaded', function () {
         card1.addEventListener('click', function () {
             window.open(links[0], '_blank');
         });
-        // Optional: Add cursor pointer to indicate it's clickable
-        card1.style.cursor = 'pointer';
     }
 
     if (card2) {
         card2.addEventListener('click', function () {
             window.open(links[1], '_blank');
         });
-        card2.style.cursor = 'pointer';
     }
 
     if (card3) {
         card3.addEventListener('click', function () {
             window.open(links[2], '_blank');
         });
-        card3.style.cursor = 'pointer';
     }
 });
